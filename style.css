@@ -1141,8 +1141,9 @@ footer .copyright {
 }
 
 #page7 h2 {
-    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(202, 212, 4));
+    background: linear-gradient(rgb(188, 12, 241), rgb(202, 212, 4));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     /* font-size: 2vw; */
     color: #988e9f;
