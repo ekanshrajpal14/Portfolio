@@ -1141,9 +1141,9 @@ footer .copyright {
 }
 
 #page7 h2 {
-    /* background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(202, 212, 4));
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(202, 212, 4));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
     /* font-size: 2vw; */
     color: #988e9f;
     font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
@@ -1181,9 +1181,9 @@ footer .copyright {
 }
 
 .box_temp_card:hover .change_name_over {
-    /* background: -webkit-linear-gradient(var(--primary), rgb(255, 76, 76)); */
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    background: -webkit-linear-gradient(var(--primary), rgb(255, 76, 76));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-shadow: none;
 
 }
@@ -1286,9 +1286,9 @@ footer .copyright {
     }
 
     .change_name_over {
-        /* background: -webkit-linear-gradient(#42ff18, rgb(0, 145, 255));
+        background: -webkit-linear-gradient(#42ff18, rgb(0, 145, 255));
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; */
+        -webkit-text-fill-color: transparent;
         text-shadow: none;
     }
 
