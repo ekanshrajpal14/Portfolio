@@ -69,9 +69,11 @@ box_temp_card = [...box_temp_card];
 box_temp_card.forEach((e) => {
     e.addEventListener("click", function (elm) {
         var id = this.getAttribute('data-name');
+        console.log(id);
         if (id.length !== "") {
             window.location.assign(id)
         }
+        
         
     })
 })
