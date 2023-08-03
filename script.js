@@ -193,3 +193,21 @@ container.forEach((e)=>{
 
 // }
 // runme()
+
+
+
+
+
+
+
+
+var box_temp_card = document.querySelectorAll(".box_temp_card");
+box_temp_card= [...box_temp_card];
+box_temp_card.forEach((e)=>{
+    e.addEventListener("click",function(elm){
+        var id = this.getAttribute('data-name')
+        if(id.length !== ""){
+            window.location.assign(id)
+        }
+    })
+})
